@@ -54,7 +54,7 @@ crontab -e
 
 Add this line (replace 2 with whatever time you feel comfortable with):
 ```
-0 2 * * * cd /path/to/danbooru_crawling && /usr/bin/python3 daily_etl.py >> etl_cron.log 2>&1
+0 2 * * * cd /path/to/danbooru_crawling && /usr/bin/python3 daily_etl.py >> etl.log 2>&1
 ```
 
 

@@ -1,0 +1,21 @@
+# ETL state and logs
+.etl_state.json
+etl.log
+etl_cron.log
+images.html
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+.env
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
